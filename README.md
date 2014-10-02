@@ -18,6 +18,10 @@ Doing this allows objects connected to the computer running the bridge applicati
 For instance I have an Arduino connected via USB that runs an sketch that polls the serial port for input ("i" and "o"). The bridge app, when it recives on and off commands for the lamp instance, sends those commands over the serial port to the Arduino, which turns the lamp on.
 The possibilites are endless. PHP requests, Tweets, Lights, Motors. Complete home automation in Cocoa. This is not a complete implementation, just enough to get you off the ground. 
 
+Demo:
+====
+https://www.youtube.com/watch?v=Bo3o6FmYd5Q
+
 Thanks:
 =======
 %95 of this is KhaosT's work, I just tweaked it to help you guys out to add a bit of documentation and added a working Light class. Check out (and star) his repo [here] (https://github.com/KhaosT/HomeKitLogicalSimulator).
