@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE330F119DDE89500F93648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE330F019DDE89500F93648 /* main.m */; };
+		8AE330F419DDE89500F93648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE330F319DDE89500F93648 /* AppDelegate.m */; };
+		8AE330F619DDE89500F93648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE330F519DDE89500F93648 /* Images.xcassets */; };
+		8AE330F919DDE89500F93648 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE330F719DDE89500F93648 /* MainMenu.xib */; };
+		8AE3310519DDE89600F93648 /* BitBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3310419DDE89600F93648 /* BitBridgeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE330FF19DDE89600F93648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE330E319DDE89500F93648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE330EA19DDE89500F93648;
+			remoteInfo = BitBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AE330EB19DDE89500F93648 /* BitBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE330EF19DDE89500F93648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE330F019DDE89500F93648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE330F219DDE89500F93648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AE330F319DDE89500F93648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AE330F519DDE89500F93648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AE330F819DDE89500F93648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8AE330FE19DDE89600F93648 /* BitBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3310319DDE89600F93648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE3310419DDE89600F93648 /* BitBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitBridgeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE330E819DDE89500F93648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE330FB19DDE89600F93648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AE330E219DDE89500F93648 = {
+			isa = PBXGroup;
+			children = (
+				8AE330ED19DDE89500F93648 /* BitBridge */,
+				8AE3310119DDE89600F93648 /* BitBridgeTests */,
+				8AE330EC19DDE89500F93648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE330EC19DDE89500F93648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE330EB19DDE89500F93648 /* BitBridge.app */,
+				8AE330FE19DDE89600F93648 /* BitBridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE330ED19DDE89500F93648 /* BitBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8AE330F219DDE89500F93648 /* AppDelegate.h */,
+				8AE330F319DDE89500F93648 /* AppDelegate.m */,
+				8AE330F519DDE89500F93648 /* Images.xcassets */,
+				8AE330F719DDE89500F93648 /* MainMenu.xib */,
+				8AE330EE19DDE89500F93648 /* Supporting Files */,
+			);
+			path = BitBridge;
+			sourceTree = "<group>";
+		};
+		8AE330EE19DDE89500F93648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AE330EF19DDE89500F93648 /* Info.plist */,
+				8AE330F019DDE89500F93648 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AE3310119DDE89600F93648 /* BitBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3310419DDE89600F93648 /* BitBridgeTests.m */,
+				8AE3310219DDE89600F93648 /* Supporting Files */,
+			);
+			path = BitBridgeTests;
+			sourceTree = "<group>";
+		};
+		8AE3310219DDE89600F93648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3310319DDE89600F93648 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE330EA19DDE89500F93648 /* BitBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE3310819DDE89600F93648 /* Build configuration list for PBXNativeTarget "BitBridge" */;
+			buildPhases = (
+				8AE330E719DDE89500F93648 /* Sources */,
+				8AE330E819DDE89500F93648 /* Frameworks */,
+				8AE330E919DDE89500F93648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitBridge;
+			productName = BitBridge;
+			productReference = 8AE330EB19DDE89500F93648 /* BitBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AE330FD19DDE89600F93648 /* BitBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE3310B19DDE89600F93648 /* Build configuration list for PBXNativeTarget "BitBridgeTests" */;
+			buildPhases = (
+				8AE330FA19DDE89600F93648 /* Sources */,
+				8AE330FB19DDE89600F93648 /* Frameworks */,
+				8AE330FC19DDE89600F93648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE3310019DDE89600F93648 /* PBXTargetDependency */,
+			);
+			name = BitBridgeTests;
+			productName = BitBridgeTests;
+			productReference = 8AE330FE19DDE89600F93648 /* BitBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE330E319DDE89500F93648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = BitTank;
+				TargetAttributes = {
+					8AE330EA19DDE89500F93648 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8AE330FD19DDE89600F93648 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8AE330EA19DDE89500F93648;
+					};
+				};
+			};
+			buildConfigurationList = 8AE330E619DDE89500F93648 /* Build configuration list for PBXProject "BitBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE330E219DDE89500F93648;
+			productRefGroup = 8AE330EC19DDE89500F93648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE330EA19DDE89500F93648 /* BitBridge */,
+				8AE330FD19DDE89600F93648 /* BitBridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE330E919DDE89500F93648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE330F619DDE89500F93648 /* Images.xcassets in Resources */,
+				8AE330F919DDE89500F93648 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE330FC19DDE89600F93648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE330E719DDE89500F93648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE330F419DDE89500F93648 /* AppDelegate.m in Sources */,
+				8AE330F119DDE89500F93648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE330FA19DDE89600F93648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE3310519DDE89600F93648 /* BitBridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE3310019DDE89600F93648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE330EA19DDE89500F93648 /* BitBridge */;
+			targetProxy = 8AE330FF19DDE89600F93648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AE330F719DDE89500F93648 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE330F819DDE89500F93648 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE3310619DDE89600F93648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AE3310719DDE89600F93648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8AE3310919DDE89600F93648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AE3310A19DDE89600F93648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AE3310C19DDE89600F93648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitBridge.app/Contents/MacOS/BitBridge";
+			};
+			name = Debug;
+		};
+		8AE3310D19DDE89600F93648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitBridge.app/Contents/MacOS/BitBridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE330E619DDE89500F93648 /* Build configuration list for PBXProject "BitBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3310619DDE89600F93648 /* Debug */,
+				8AE3310719DDE89600F93648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE3310819DDE89600F93648 /* Build configuration list for PBXNativeTarget "BitBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3310919DDE89600F93648 /* Debug */,
+				8AE3310A19DDE89600F93648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AE3310B19DDE89600F93648 /* Build configuration list for PBXNativeTarget "BitBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3310C19DDE89600F93648 /* Debug */,
+				8AE3310D19DDE89600F93648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE330E319DDE89500F93648 /* Project object */;
+}
