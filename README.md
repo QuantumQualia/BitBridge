@@ -3,6 +3,12 @@ BitBridge
 
 A HomeKit bridge for iOS 8, based off of HomeKitLogicalSimulator.
 
+Prerequisites:
+=============
+A Mac with Xcode 6 and HomeKitSimulator.
+An iPhone running iOS 8.
+The demo application to add 
+
 Quick Setup
 ==========
 1. Make sure you have Xcode 6.
