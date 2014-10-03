@@ -4,11 +4,12 @@ A HomeKit bridge for iOS 8, based off of HomeKitLogicalSimulator.
 
 Prerequisites:
 =============
-A Mac with Xcode 6 and HomeKitSimulator.
-An iPhone running iOS 8
-HomeKitClient application.
-An official developer licence (used to get the app on your phone).
-Note: if anyone has a better solution, please let me know. 
+* A Mac with Xcode 6 and HomeKitSimulator.
+* An iPhone running iOS 8
+* HomeKitClient application.
+* An official developer licence (used to get the app on your phone).
+
+**Note: if anyone has a better solution, please let me know.** 
 
 
 Quick Setup
