@@ -9,7 +9,7 @@ Prerequisites:
 * HomeKitClient application.
 * An official developer licence (used to get the app on your phone).
 
-**Note: if anyone has a better solution, please let me know.** 
+**Note: if anyone has a better solution to get an app on your phone, please let me know.** 
 
 
 Quick Setup
