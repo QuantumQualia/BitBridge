@@ -6,7 +6,7 @@ Prerequisites:
 =============
 * A Mac with Xcode 6 and HomeKitSimulator.
 * An iPhone running iOS 8
-* HomeKitClient application.
+* (https://github.com/BitTankInc/BitBridge-iOS) [BitBridge application] (any HomeKit app will work, this one I can support).
 * An official developer licence (used to get the app on your phone).
 
 **Note: if anyone has a better solution to get an app on your phone, please let me know.** 
