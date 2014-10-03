@@ -11,6 +11,7 @@
 #import "HAKIdentifyCharacteristic.h"
 #import "HAKOnCharacteristic.h"
 #import "HAKLightBulbService.h"
+#import "HAKBrightnessCharacteristic.h"
 #import "OTIHAPCore.h"
 #import "HAKAccessory.h"
 #import "HAKAccessoryInformationService.h"
@@ -25,9 +26,9 @@
      BOOL                        _pendingUpdate;
     BOOL _isLightOn;
 Light *_light;
-    
+     HAKBrightnessCharacteristic *_brightness;
     OTIHAPCore *_accessoryCore;
-    
+    int lightBrightness;
     HAKAccessory *_lightAccessory;
 }
 
@@ -52,8 +53,10 @@ Light *_light;
             if ([characteristic isKindOfClass:[HAKOnCharacteristic class]]) {
                 _state = (HAKOnCharacteristic *)characteristic;
             }
-            
+            if ([characteristic isKindOfClass:[HAKBrightnessCharacteristic class]]) {
+                _brightness = (HAKBrightnessCharacteristic *)characteristic;
             }
+        }
     }
     
     [self updateLightValue];
@@ -69,6 +72,11 @@ Light *_light;
   
         if (_state.on !=light.onCharacteristic.boolValue) {
             _state.on = light.onCharacteristic.boolValue;
+        }
+        
+        
+        if (_brightness != light.brightnessCharacteristic) {
+            _brightness = light.brightnessCharacteristic;
         }
         
      
@@ -143,6 +151,8 @@ Light *_light;
 - (void)characteristicDidUpdateValueNotification:(NSNotification *)aNote {
     HAKOnCharacteristic *characteristic = aNote.object;
     
+    if ([characteristic isKindOfClass:[HAKOnCharacteristic class]]) {
+ 
     ORSSerialPort *serialPort = [ORSSerialPort serialPortWithPath:@"/dev/tty.usbmodem1d21"];
     serialPort.baudRate = [NSNumber numberWithInteger:9600];
     [serialPort open];
@@ -166,6 +176,25 @@ Light *_light;
        [serialPort sendData:someData];
     sleep(5);
     [serialPort close];
+    
+    
+    }
+    
+    if ([characteristic isKindOfClass:[HAKBrightnessCharacteristic class]]) {
+        id value = aNote.userInfo[@"HAKCharacteristicValueKey"];
+        if ([value isKindOfClass:[NSNumber class]]) {
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                if (lightBrightness != [value intValue]) {
+                    NSLog(@"UpdateBrightness:%@",value);
+                    _pendingUpdate = YES;
+                  
+                    lightBrightness = [value intValue];
+                   //depending on what you are trying to do, this is where you'd set your brightness in your light.
+                }
+            });
+        }
+    }
+    
 }
 
 
